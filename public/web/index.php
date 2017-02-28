@@ -5,3 +5,5 @@ require(__DIR__ . '/../vendor/yiisoft/yii2/Yii.php');
 $config = require(__DIR__ . '/../config/web.php');
 // Соэдаём и немедленно выполняем приложение (3)
 (new yii\web\Application($config))->run();
+
+ini_set( 'display_errors', true);
